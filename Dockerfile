@@ -8,5 +8,5 @@ RUN rpmdev-setuptree
 USER root
 ADD entry.sh /root/
 COPY ./ /root/rpmbuild/SPECS
-/root/entry.sh
+RUN /root/entry.sh
 
